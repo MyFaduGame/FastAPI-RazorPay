@@ -4,8 +4,8 @@ from serializer import (PaymentRequestSerializer,PaymentResponseSerializer)
 
 app = FastAPI()
 
-razor_pay_secret_key='kFuJQYPwnI3JV07KJ24D6DbI'
-razor_pay_secret_key_id='rzp_test_g44tciGniDkqPC'
+razor_pay_secret_key='<YOUR_API_KEY>'
+razor_pay_secret_key_id='<YOUR_API_SECRET>'
 
 
 @app.post("/")
